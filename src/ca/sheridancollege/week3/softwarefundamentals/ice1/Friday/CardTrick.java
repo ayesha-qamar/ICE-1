@@ -11,6 +11,9 @@ public class CardTrick {
        Card c = new Card();
        c.setSuit("spades");
        c.setValue(4);
+       System.out.println(c.getValue());
+       System.out.println(c.getSuit());
+    
     }
     
 }
